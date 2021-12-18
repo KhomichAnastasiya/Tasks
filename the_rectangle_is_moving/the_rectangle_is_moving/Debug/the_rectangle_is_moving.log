@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\user\desktop\lessons c++\github\the_rectangle_is_moving\the_rectangle_is_moving\source.cpp(34): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+  the_rectangle_is_moving.vcxproj -> C:\Users\user\Desktop\Lessons C++\github\the_rectangle_is_moving\Debug\the_rectangle_is_moving.exe
+  the_rectangle_is_moving.vcxproj -> C:\Users\user\Desktop\Lessons C++\github\the_rectangle_is_moving\Debug\the_rectangle_is_moving.pdb (Full PDB)
