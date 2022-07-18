@@ -1,4 +1,0 @@
-﻿  Source.cpp
-c:\users\user\desktop\lessons c++\github\procedural_generation\procedural_generation\source.cpp(108): warning C4101: 'x': unreferenced local variable
-  procedural_generation.vcxproj -> C:\Users\user\Desktop\Lessons C++\github\procedural_generation\Debug\procedural_generation.exe
-  procedural_generation.vcxproj -> C:\Users\user\Desktop\Lessons C++\github\procedural_generation\Debug\procedural_generation.pdb (Full PDB)

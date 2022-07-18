@@ -1,4 +1,0 @@
-﻿  Source.cpp
-c:\users\user\desktop\lessons c++\tasks\brownian_motion\brownian_motion\source.cpp(51): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-  Brownian_motion.vcxproj -> C:\Users\User\Desktop\Lessons C++\Tasks\Brownian_motion\Debug\Brownian_motion.exe
-  Brownian_motion.vcxproj -> C:\Users\User\Desktop\Lessons C++\Tasks\Brownian_motion\Debug\Brownian_motion.pdb (Full PDB)
