@@ -1,7 +1,3 @@
-/*
-÷ветное броуновское движение
-*/
-
 #include <iostream>
 #include <Windows.h>
 
@@ -104,7 +100,7 @@ void main()
 {
 	int N;
 	setlocale(LC_ALL, "Rus");
-	cout << "¬ведите колличество точек: ";
+	cout << "enter the number of points: ";
 	cin >> N;
 
 	Point pt[100];
