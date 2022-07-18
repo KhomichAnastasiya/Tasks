@@ -5,25 +5,27 @@
 
 using namespace std;
 
+bool find_repeat_nums(vector<int> &secret_nums, int m)
+{
+	for (int j = 0; j < secret_nums.size(); j++)
+	{
+		if (m == secret_nums[j])
+		{
+			return false;
+		}
+	}
+	return true;
+
+}
+
 vector<int> secret_num()
 {
 	vector<int> secret_nums;
-	bool flag = true;
 	int n = 4;
 	while (n != 0)
 	{
-		flag = true;
 		int m = rand() % 9 + 0;
-		for (int j = 0; j < secret_nums.size(); j++)
-		{
-			if (m == secret_nums[j])
-			{
-				flag = false;
-				break;
-			}
-
-		}
-		if (flag != false)
+		if (find_repeat_nums(secret_nums, m) != false)
 		{
 			secret_nums.push_back(m);
 			n--;
@@ -183,12 +185,6 @@ int main()
 	do
 	{
 		vector<int> enter_nums = enter_num();
-
-		for (int i = 0; i < enter_nums.size(); i++)
-		{
-			cout << enter_nums[i];
-		}
-		cout << endl;
 
 		cout << num_to_words_cows(numbers_of_cows(secret_nums, enter_nums)) << endl;
 		cout << num_to_words_builts(numbers_of_buils(secret_nums, enter_nums)) << endl;
